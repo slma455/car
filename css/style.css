@@ -1,0 +1,424 @@
+/*Global Rules*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container
+{
+width:1140px;
+margin-left: auto;
+margin-right: auto;
+padding: 60px 0;
+
+}
+/*navbar*/
+
+.logo
+{
+    float:left;
+}
+.navbar
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#home
+{/*
+    padding-top: 5px;
+    padding-bottom: 50px;
+    */
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    color: white;
+    
+    
+}
+
+.overlay
+{    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0 0 0 / 60%);
+}
+.overlay-f
+{    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0 0 0 / 80%);
+}
+.text
+{
+    padding: 10px;
+    margin-bottom: 50px;
+   
+}
+.pp{
+    
+    color: rgb(243, 246, 248);
+    padding-top: 130px;
+    
+}
+.text {
+    color: rgb(243, 246, 248);
+    padding-top: 20px;
+    padding: 20px;
+
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(243, 246, 248);
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.text-p
+{
+    color: white;
+    padding-top: 30px;
+}
+.formk
+{
+    padding-left: 50px;
+    float: left;
+}
+form
+{
+    text-align: center;
+    float: right;
+    width: 520px;
+    padding:15px;
+    
+}
+input {
+    width: 400px;
+    padding: 10px;
+    margin: 5px  ;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 8px;
+    background: #f1f1f1;
+    float: left;
+  }
+  .selectt
+  {
+    width: 400px;
+    padding: 10px;
+    margin: 5px  ;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font: grey;
+    background: #f1f1f1;
+    float: left;
+  }
+  .date5
+  {
+    width: 210px;
+    padding: 10px;
+    margin: 5px  ;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font: grey;
+    background: #f1f1f1;
+    
+    
+  }
+  .select5
+  {
+    width: 180px;
+    padding: 10px;
+    margin: 5px  ;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font: grey;
+    background: #f1f1f1;
+    float: left;
+  }
+  .select55
+  {
+    width: 180px;
+    padding: 10px;
+    float: inline-start;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font: grey;
+    background: #f1f1f1;
+    
+  }
+  .date54
+  {
+    width: 210px;
+    padding: 10px;
+    margin: 5px  ;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font: grey;
+    background: #f1f1f1;s
+
+  }
+.caption
+{
+    padding-top: 35px;
+    float: left;
+   /* padding-left: 50px;*/
+    padding-bottom: 35px;
+    font-size: 25px;
+    text-align: left;
+    width: 100%;
+}
+.confirm
+{
+    background-color: rgb(249, 183, 0);
+    color: white;
+     width: 400px;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 15px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    float: left;
+    
+}
+button{
+    background-color: rgb(249, 183, 0);
+    color: white;
+    margin-top: 20px;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+}
+h3
+{
+float:left;
+padding-left: 10px;
+text-align: center;
+}
+.context
+{
+    text-align: center;
+    padding: 10px;
+}
+.context p{
+    padding-top: 20px;
+}
+.icon
+{
+    float:left;
+    
+}
+p{
+    color:black; 
+}
+.service
+{
+    border: 1px solid rgb(237,237,247);
+    padding: 30px;
+    width:30%;
+    background-color: rgb(237,237,247);
+    border-radius: 10px;
+    float :left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.con-det
+{
+    float:right;
+    padding-left: 30px;
+    text-align: justify;
+    width: 40%; 
+    padding-top: 40px;
+}
+.con-img
+{
+    width: 30%;
+    padding-top: 30px;
+}
+.con-det h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bolder;
+     padding-top: 130px;
+    
+}
+.con-det  p
+{
+padding-top:20px;
+}
+.con-det p+p
+{
+    color:grey;
+}
+
+.img2
+{
+    width: 60%;
+    padding-top:70px;
+
+}
+.book-text
+{
+    width: 400px;
+    padding-top: 100px;
+}
+span
+{
+float:right;
+color: rgb(249, 183, 0);
+font-weight: bolder;
+font-size: 30px;
+}
+.car-p 
+{
+    float:left;
+    color: grey;
+    padding-top: 20px;
+}
+.car-p1
+{
+    color: grey;
+    padding-top: 20px;
+
+}
+.car-p2
+{
+    color: grey;
+    padding-top: 20px;
+
+}
+.book-img
+{
+    float: right;
+}
+#support
+{
+    background-image: url(../Images/callaction-bg.jpg);
+    background-size: cover;
+}
+
+.overlay-s
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(34, 37, 52, 0.6);
+}
+#support .context-s
+{
+    text-align: center;
+    color: white;
+    padding: 60px;
+}
+#support .context-s h2
+{
+    font-weight: bold;
+    font-size: 35px;
+}
+#support .context-s p
+{
+    text-align: center;
+    color: white;
+    padding:15px;
+}
+#support .context-s button{
+    border: 2px solid rgb(249, 183, 0);
+    background-color: transparent;
+    color: rgb(249, 183, 0);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.context-b h2
+{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.context-b p{
+    text-align: center;
+    color: grey;
+    padding:15px;
+
+}
+.blog 
+{
+    padding: 30px;
+    width:21%;
+    background-color: white;
+    border-radius: 10px;
+    float :left;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+.blog img{
+    padding: 10px;
+}
+.blog-cl{
+    background-color: black;
+    border:1px solid black;
+    color: white;
+    width: 200px;
+    padding:10px;
+    margin: 10px;
+    font-size: 12px;
+}
+.blog-4
+{
+    padding: 10px;
+    font-size: 17px;
+    width:250px;
+    font-weight:bolder;
+    
+}
+.blog-p 
+{
+    padding: 10px;
+    font-size: 17px;
+    color: grey;
+    width:250px;
+}
+.blog-one
+{
+    width: 150px;
+   
+}
+.blog-i
+{
+float:left;
+}
+.blog-pi
+{
+    float: right;
+    font-size: 12px;
+    padding: 10px;
+    color: grey;
+    
+}
+
+
+
+
+
+/*
